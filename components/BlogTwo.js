@@ -8,7 +8,11 @@ export const BlogTwo = () => {
         <div>
             <ArticlePageLayout header="3 JavaScript Array Methods Every Developer Should Know">
 
-                <p> There exists a special data structure called Array, to store ordered collections. Arrays in JavaScript allow multiple values to be stored in a single variable. It stores the same kind of element collection succeeding fixed-size. The strength of JavaScript arrays lies in the array methods. Array methods are functions built-in to JavaScript that we can apply to our arrays — Each method has a unique function that performs a change or calculation to our array and saves us from writing common functions from scratch. I won't discuss all the arrays methods but the three methods I have used the most</p>
+                <p> There exists a special data structure called Array, to store ordered collections. 
+                    Arrays in JavaScript allow multiple values to be stored in a single variable. 
+                    It stores the same kind of element collection succeeding fixed-size. 
+                    The strength of JavaScript arrays lies in the array methods. Array methods are functions built-in to JavaScript
+        that we can apply to our arrays — Each method has a unique function that performs a change or calculation to our array and saves us from writing common functions from scratch. I won't discuss all the arrays methods but the three methods I have used the most</p>
 
                 <h3>1. filter( )</h3>
                 <p>The filter() method creates an array filled with all array elements that pass a test implemented by the provided function. You cant change the original value using the filter.</p>
@@ -22,7 +26,7 @@ export const BlogTwo = () => {
 
                 <b>thisObject</b> − Object to use as this when executing callback.<br />
 
-                <p>Heres an example to understand it battter. <br />
+                <p>Heres an example to understand it batter. <br />
                 This method creates a new array with only elements that passes the condition inside the provided function.</p>
                 <DisplayCode>
                     const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];<br />
@@ -38,7 +42,7 @@ export const BlogTwo = () => {
 
                 <h3>2. forEach( )</h3>
                 It allows us to access each element of an array in order. The forEach() method takes a function that operates on each of the elements in that array. Yes, you can also get the same result by for loop. But we favour forEach as the forEach method is a little cleaner than the for loop and less chance of error.
-                <h4>Syntex</h4>
+                <h4>Syntax</h4>
                 <DisplayCode>
                     array.forEach(callback[, thisObject]);
 </DisplayCode>
@@ -61,7 +65,7 @@ avengers.forEach((item, index)={">{"}<br />
                 <h3>3. map()</h3>
                 <p>
                     The map() method, similar to the forEach() method, does the provided function once for each element in an array. But unlike the forEach() method, it creates a new array with the results of calling a function for every array element. Hence map() method relies on immutability. Also, map() does not execute/call the function for those array elements without values.</p>
-                <h4>Syntex</h4>
+                <h4>Syntax</h4>
                 <DisplayCode>
                     let newArray = oldArray.map(callback(element[, index[, array]])[, thisArg])
 </DisplayCode>
